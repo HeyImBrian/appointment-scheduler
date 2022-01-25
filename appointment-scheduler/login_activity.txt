@@ -1,0 +1,77 @@
+
+Log-in Attempt: 
+2021-10-29 19:47:43  Username input: I hope you're having a great day! Stay safe and healthy! 
+FAILED
+
+Log-in Attempt: 
+2021-11-01 09:12:18  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 09:16:31  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 09:19:08  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 09:20:10  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 09:20:41  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 09:38:32  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 09:50:16  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 09:52:23  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 09:53:20  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 09:57:35  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 10:00:14  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 10:00:58  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 10:02:27  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 10:17:51  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 10:19:17  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2021-11-01 10:22:26  Username input: test 
+SUCCESS
+
+Log-in Attempt: 
+2022-01-23 13:17:40  Username input:  
+FAILED
+
+Log-in Attempt: 
+2022-01-23 13:18:52  Username input: test 
+SUCCESS
+

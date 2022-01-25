@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CustomersAddController">
+   <children>
+      <Text layoutX="236.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Customer">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="fieldID" disable="true" layoutX="162.0" layoutY="125.0" promptText="Auto Gen- Disabled" />
+      <TextField fx:id="fieldName" layoutX="162.0" layoutY="155.0" />
+      <TextField fx:id="fieldAddress" layoutX="162.0" layoutY="185.0" />
+      <TextField fx:id="fieldPostalCode" layoutX="162.0" layoutY="215.0" />
+      <TextField fx:id="fieldPhone" layoutX="162.0" layoutY="245.0" />
+      <Text layoutX="101.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" x="-30.0" />
+      <Text layoutX="101.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" x="-30.0" />
+      <Text layoutX="101.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" x="-30.0" />
+      <Text layoutX="101.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Postal Code" x="-30.0" />
+      <Text layoutX="101.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number" x="-30.0" />
+      <Text layoutX="101.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Country" x="-30.0" />
+      <Text layoutX="102.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Division" x="-30.0" />
+      <Button fx:id="buttonSave" layoutX="431.0" layoutY="344.0" mnemonicParsing="false" onAction="#savePressed" text="Save" />
+      <Button fx:id="buttonCancel" layoutX="494.0" layoutY="344.0" mnemonicParsing="false" onAction="#cancelPressed" text="Cancel" />
+      <Label fx:id="labelError" layoutX="349.0" layoutY="123.0" prefHeight="185.0" prefWidth="206.0" wrapText="true" />
+      <ComboBox fx:id="comboBoxCountry" layoutX="162.0" layoutY="275.0" onAction="#countryBoxSelected" prefWidth="150.0" />
+      <ComboBox fx:id="comboBoxDivision" layoutX="162.0" layoutY="305.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

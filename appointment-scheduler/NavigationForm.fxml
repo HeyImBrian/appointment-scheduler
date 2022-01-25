@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="347.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NavigationController">
+   <children>
+      <Label layoutX="144.0" layoutY="22.0" text="Navigation Menu">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="customersButton" layoutX="141.0" layoutY="94.0" mnemonicParsing="false" onAction="#switchToCustomers" prefHeight="80.0" prefWidth="282.0" text="Customers">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="appointmentsButton" layoutX="141.0" layoutY="198.0" mnemonicParsing="false" onAction="#switchToAppointments" prefHeight="80.0" prefWidth="282.0" text="Appointments">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
